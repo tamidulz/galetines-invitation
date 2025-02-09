@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galentine's Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+        .message {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div>
+        <img src="https://i.imgur.com/Qg2rci7.jpg" alt="Galentine's Invitation">
+        <p class="message">✨ Come celebrate with us! ✨</p>
+    </div>
+</div>
+
+<script>
+    const endDate = new Date('February 15, 2025 00:00:00');
+    const currentDate = new Date();
+
+    if (currentDate >= endDate) {
+        window.location.href = "https://your-redirect-url.com";  // Optional: Put a URL here if you want to redirect after Feb 15
+    }
+</script>
+
+</body>
+</html>
